@@ -1,0 +1,46 @@
+
+:root{
+  --PrimaryOverlay-color: rgba(3, 3, 5, 0.973);;
+  --primary-color: #3292a6;
+}
+
+body {
+  margin-top: 76px; 
+}
+
+.navbar {
+  /* box-shadow: 2px 2px 5px #3292a6; */
+  /* opacity: 0.9; */
+  background: var(--PrimaryOverlay-color);
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px; 
+}
+
+
+#showcase {
+  background: linear-gradient(rgba(3, 3, 5, 0.747), rgba(0, 0, 20, 255)), url(../img/header.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 600px; 
+}
+
+
+.btn{
+  background-color: var(--yellow);
+  font-weight: bold;
+  color: #000;
+}
+
+.sell-house{
+  color: var(--yellow);;
+}
+
+/* Customise container */
+.cc-container{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
